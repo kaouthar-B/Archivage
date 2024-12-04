@@ -9,7 +9,6 @@ import java.util.List;
 public class Utilisateur {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
     private String nom;
     private String prenom;
     private String email;
@@ -34,9 +33,7 @@ public class Utilisateur {
     }
 
     // Getters
-    public Long getId() {
-        return id;
-    }
+
 
     public String getNom() {
         return nom;
